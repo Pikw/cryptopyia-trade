@@ -1,0 +1,15 @@
+[Unit]
+Description=Jupyter Workplace
+
+[Service]
+Type=simple
+PIDFile=/run/jupyter.pid
+ExecStart=/home/anaconda/anaconda3/bin/jupyter-notebook --config=/home/anaconda/.jupyter/jupyter_notebook_config.py
+User=anaconda
+Group=anaconda
+WorkingDirectory=/home/anaconda/workplace
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

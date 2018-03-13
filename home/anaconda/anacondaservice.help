@@ -1,0 +1,11 @@
+Following the instructions of https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples, place this file in:
+
+/usr/lib/systemd/system/jupyter.service
+
+Then execute
+
+sudo systemctl enable jupyter.service
+Reload the systemd daemona and restart the service
+
+sudo systemctl daemon-reload
+sudo systemctl restart jupyter.service

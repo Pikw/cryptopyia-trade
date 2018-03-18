@@ -1,0 +1,45 @@
+RangeIndex(start=0, stop=709, step=1)
+0:00:41.943070
+1:59:30
+--------------TO-----------------
+2018-03-16 15:02:44
+-------------FROM----------------
+708   2018-03-16 13:03:14
+Name: Timestamp, dtype: datetime64[ns]
+-------- Last DATA Hour --------
+DatetimeIndex(['2018-03-16 15:02:00'], dtype='datetime64[ns]', name='Timestamp', freq=None)
+---------------END----------------
+RangeIndex(start=0, stop=718, step=1)
+0:00:08.958446
+1:59:31
+--------------TO-----------------
+2018-03-16 15:06:46
+-------------FROM----------------
+717   2018-03-16 13:07:15
+Name: Timestamp, dtype: datetime64[ns]
+---------------END----------------
+-------- Last DATA Hour --------
+DatetimeIndex(['2018-03-16 15:06:00'], dtype='datetime64[ns]', name='Timestamp', freq=None)
+-------- Last DATA Hour --------
+0:00:28.547594
+4:05:11
+--------------TO-----------------
+2018-03-16 15:07:54
+-------------FROM----------------
+999   2018-03-16 11:02:43
+Name: Timestamp, dtype: datetime64[ns]
+---------------END----------------
+-------- Last DATA Hour --------
+DatetimeIndex(['2018-03-16 15:08:00'], dtype='datetime64[ns]', name='Timestamp', freq=None)
+-------- Last DATA Hour --------
+-1 day, 21:00:19.207689
+1:55:36
+--------------TO-----------------
+2018-03-17 07:10:34
+-------------FROM----------------
+189   2018-03-17 05:14:58
+Name: Timestamp, dtype: datetime64[ns]
+---------------END----------------
+-------- Last DATA Hour --------
+DatetimeIndex(['2018-03-17 07:10:00'], dtype='datetime64[ns]', name='Timestamp', freq=None)
+-------- Last DATA Hour --------
